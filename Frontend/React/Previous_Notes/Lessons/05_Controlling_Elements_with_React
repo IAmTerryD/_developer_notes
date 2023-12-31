@@ -1,0 +1,38 @@
+<p>
+Now that you have an element on the app, we want to allow React to control the data. 
+</p>
+
+In otherwords, we need React to take control of this element. This is something that we will do many times and we always do it in the same way. 
+</p>
+
+### Taking Control of Element with React
+
+##### Create a State
+
+```
+const [sortBy, setSortBy] = useState("recent");
+```
+
+##### Use the State as the Value of the Element
+
+```
+      <select value={}>
+        <option value="recent">Sort Recent</option>
+        <option value="alphabetically">Sort By Name</option>
+        <option value="packed">Sort By Packed</option>
+      </select>
+```
+
+##### Attach the setState to the Element's EventListener
+
+```
+      <select value={sortBy} onChange={e=> setSortBy(e.target.value)}>
+        <option value="recent">Sort Recent</option>
+        <option value="alphabetically">Sort By Name</option>
+        <option value="packed">Sort By Packed</option>
+      </select>
+```
+
+<p>
+Now that we let React control this item, everytime we change the select input, we see the Sort state change with it. Use the Dev Tools to see changes.
+</p>
