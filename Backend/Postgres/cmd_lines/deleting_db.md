@@ -1,12 +1,15 @@
 # Deleting Database
 
-To delete a PostgreSQL database, you need to use the DROP DATABASE SQL command. Here are the steps to delete a PostgreSQL database:
+To delete a PostgreSQL database, you need to use the DROP DATABASE SQL command. 
 
+Here are the steps to delete a PostgreSQL database:
 
 ## Connect to PostgreSQL 
+
 ```
 psql -U your_username -d your_database
 ```
+
 ```
 psql -U postgres -d postgres
 ```
@@ -16,7 +19,9 @@ psql -U postgres -d postgres
 ```
 \c postgres
 ```
+
 ## Execute the DROP DATABASE Command:
+
 Once connected, run the following SQL command to delete the database:
 
 ```

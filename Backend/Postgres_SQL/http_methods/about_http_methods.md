@@ -1,4 +1,0 @@
-# GET
-
-# PUT
-Updating API

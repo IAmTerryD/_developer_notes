@@ -1,3 +1,9 @@
+# What is pg dump in Postgres? 
+
+pg_dump is a utility in PostgreSQL, a popular open-source relational database management system, used for backing up a database. 
+
+It generates a file with SQL commands that, when executed, will recreate the database in the same state as it was at the time of the dump. Here are some key aspects of pg_dump:
+
 # Go to .bin location
 
 > C:\Program Files\PostgreSQL\16\bin
