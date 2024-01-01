@@ -1,5 +1,6 @@
-# Install from PIP
+# Enable CORS Headers
 
+# Install from PIP
 ```
 python -m pip install django-cors-headers
 ```
@@ -21,3 +22,16 @@ python -m pip install django-cors-headers
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
+
+This allows frontend frameworks to connect to Django API
+```
+
+# Ensure Django Rest Framework backend:
+
+```
+INSTALLED_APPS = [
+    "rest_framework",
+    "api",
+    "corsheaders",
+]
+```
