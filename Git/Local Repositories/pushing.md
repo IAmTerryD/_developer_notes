@@ -1,27 +1,17 @@
 # Push Your Code to GitHub:
 
-Push your commits to GitHub with:
-
-```
-git push -u origin master 
-```
-The -u flag sets the upstream for your branch, so in the future, you can simply use git push to push to the same branch.
-
-Enter Your GitHub Credentials:
-If prompted, enter your GitHub username and password. If you have two-factor authentication enabled, you'll need to enter a personal access token instead of a password.
-
-
-# How to add comments
-
-Adding comments directly to a git push command isn't possible since git push itself is just a command to upload your local repository content to a remote repository. However, you can add comments to your commits, which are then pushed to the remote repository. Here's how the process typically works:
-
-# Make Changes in Your Local Repository:
-First, you make changes to your files in your local repository.
-
 ## 1. Stage the Changes:
 
-Use git add to stage the changes for commit. You can add all changes with git add . or specific files with git add filename.
+Use git add to stage the changes for commit. You can add all changes with:
+```
+git add . 
+```
 
+or specific files with:
+
+```
+git add filename
+```
 ## 2. Commit the Changes with a Comment:
 When you commit these changes, you add a comment that describes what you did. 
 
